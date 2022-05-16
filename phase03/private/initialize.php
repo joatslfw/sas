@@ -21,4 +21,6 @@
 
   require_once('functions.php');
 
+  $db = db_connect();
+
 ?>
