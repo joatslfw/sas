@@ -11,7 +11,7 @@ if (is_post_request()) {
 $pageTitle = "Create";
 include (SHARED_PATH . '/salamander-header.php');
 ?>
-<a href= "<?= url_for('/salamander/index.php'); ?>">&laquo; Back to List</a>
+<a href= "<?= url_for('/salamanders/index.php'); ?>">&laquo; Back to List</a>
 <h1>Create Salamander</h1>
 <!-- add label -->
 <form action="<?= url_for('/salamanders/create.php'); ?>" method="post">
